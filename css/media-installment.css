@@ -1,0 +1,198 @@
+/*********************************
+**** Start Extra Small Screen ****
+**********************************/
+
+@media (max-width: 767px) {
+    body { padding-top: 41px }
+    
+    /* Start Navbar */
+    
+    .navbar { min-height: 41px }
+    
+    .navbar-default .navbar-brand {
+        margin-right: 0;
+        font-size: 18px;
+        height: 40px;
+        padding: 10px 10px;
+    }
+    
+    .navbar-default .navbar-brand .g { font-size: 23px; padding: 1px 4px }
+    
+    .navbar-toggle { margin-top: 4px; margin-bottom: 0 }
+    
+    .navbar-default .navbar-toggle .icon-bar { background-color: #e61302; }
+    
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus { background-color: #e61302 }
+    
+    .navbar-default .navbar-toggle:hover .icon-bar { background-color: #FFF }
+    
+    .navbar-default .navbar-toggle:focus .icon-bar { background-color: #FFF }
+    
+    .navbar-default .navbar-nav > li > a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 13px
+    }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a { color: #000; font-size: 14px }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { background-color: #e61302; color: #FFF }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus { background-color: #e61302; color: #FFF }
+    
+    .navbar-form .form-control { max-width: 200px }
+    
+    /* End Navbar */
+    
+    /* Start Section Installment */
+
+    .installment h1 {
+        margin-bottom: 20px;
+        margin-top: 0;
+        font-size: 25px
+    }
+
+    .installment form h2 { margin-bottom: 30px; font-size: 25px;}
+    
+    .installment .form-control { font-size: 12px; height: 35px }
+    
+    .installment .info { margin: 50px 15px 0; padding-left: 15px }
+
+    .installment .info h2 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-size: 25px
+    }
+    
+    .installment .info .info-car .lead { font-size: 15px; margin-bottom: 0 }
+    
+     margin: 50px 15px 0;
+
+    /* End Section Installment */
+    
+    /* Start Footer */
+    
+    footer .copy { line-height: 30px; font-size: 14px }
+    
+    footer .social-media { line-height: 25px }
+
+    footer .social-media i {
+        line-height: 25px;
+        height: 25px;
+        width: 25px;
+    }
+    
+    /* End Footer */
+    
+}
+
+/*******************************
+**** End Extra Small Screen ****
+*******************************/
+
+/***************************
+**** Start Small Screen ****
+****************************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body { padding-top: 41px }
+    
+    /* Start Navbar */
+    
+    .navbar { min-height: 41px }
+    
+    .navbar-default .navbar-brand {
+        padding: 10px 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        height: 40px
+    }
+    
+    .navbar-default .navbar-brand .g { font-size: 23px; padding: 1px 4px }
+    
+    /* Start Navbar li */
+    
+    .navbar-default .navbar-nav > li > a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 13px
+    }
+    
+    .dropdown-menu { min-width: 165px }
+    
+    .dropdown-menu > li > a { padding: 3px 8px; font-size: 13px }
+    
+    .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:focus { padding-left: 15px }
+    
+    /* Start Search */ 
+    
+    .navbar-form {
+        padding-top: 10px;
+        margin-bottom: 0;
+        margin-top: 7px;
+        padding: 0
+    }
+    
+    .navbar-form .form-control {
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 12px;
+        height: 28px
+    }
+    
+    .navbar .navbar-form .btn { padding: 4px 6px; font-size: 13px }
+    
+    .installment .info .info-car .lead { font-size: 17px; margin-bottom: 0 }
+    
+    /* End Navbar */
+    
+    /* Start Section Installment */
+
+    .installment h1 { margin-bottom: 30px; font-size: 31px }
+
+    .installment form h2 { margin-bottom: 45px; padding-left: 15px; font-size: 31px;}
+    
+    .installment .form-control { font-size: 12px; height: 35px }
+
+    .installment .info h2 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 31px
+    }
+    
+    .installment .info .info-car .lead { font-size: 15px; margin-bottom: 0 }
+
+    /* End Section Installment */
+    
+}
+
+/*************************
+**** End Small Screen ****
+*************************/
+
+/****************************
+**** Start Medium Screen ****
+*****************************/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    /* Start Navbar */
+    
+    .navbar-default .navbar-brand { margin-right: 30px }
+    
+    /* End Navbar */
+    
+    /* Start Section Installment */
+    
+    .installment .info .info-car .lead { font-size: 17px; margin-bottom: 0 }
+
+    /* End Section Installment */
+}
+
+/*************************
+**** End Medium Screen****
+*************************/

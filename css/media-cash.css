@@ -1,0 +1,202 @@
+/*********************************
+**** Start Extra Small Screen ****
+**********************************/
+
+@media (max-width: 767px) {
+    body { padding-top: 41px }
+    
+    /* Start Navbar */
+    
+    .navbar { min-height: 41px; z-index: 99999 }
+    
+    .navbar-default .navbar-brand {
+        margin-right: 0;
+        font-size: 18px;
+        height: 40px;
+        padding: 10px 10px;
+    }
+    
+    .navbar-default .navbar-brand .g { font-size: 23px; padding: 1px 4px }
+    
+    .navbar-toggle { margin-top: 4px; margin-bottom: 0 }
+    
+    .navbar-default .navbar-toggle .icon-bar { background-color: #e61302; }
+    
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus { background-color: #e61302 }
+    
+    .navbar-default .navbar-toggle:hover .icon-bar { background-color: #FFF }
+    
+    .navbar-default .navbar-toggle:focus .icon-bar { background-color: #FFF }
+    
+    .navbar-default .navbar-nav > li > a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 13px
+    }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a { color: #000; font-size: 14px }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { background-color: #e61302; color: #FFF }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus { background-color: #e61302; color: #FFF }
+    
+    .navbar-form .form-control { max-width: 200px }
+    
+    /* End Navbar */
+
+    /* Start Search Box */
+
+    .search-box .box { padding: 5px 1px 5px; max-width: 250px }
+
+    .search-box .box h2 {
+        margin-bottom: 10px;
+        margin-top: 5px;
+        font-size: 20px
+    }
+
+    .search-box .box .form-control {
+        padding: 6px 4px;
+        font-size: 12px;
+        height: 29px
+    }
+
+    .search-box .box .btn-searchs .btn-search { font-size: 16px }
+
+    .search-box .icon-box { font-size: 23px }
+
+    .search-box .icon-box:hover { font-size: 25px }
+
+    /* End Search Box */
+    
+    /* Start Section Cash */
+
+    .brands h1 {
+            margin-bottom: 35px;
+            margin-top: 30px;
+            font-size: 31px
+        }
+    
+    /* End Section Cash */
+    
+    /* Start Footer */
+    
+    footer .copy { line-height: 30px; font-size: 14px }
+    
+    footer .social-media { line-height: 25px }
+
+    footer .social-media i {
+        line-height: 25px;
+        height: 25px;
+        width: 25px;
+    }
+    
+    /* End Footer */
+    
+}
+
+/*******************************
+**** End Extra Small Screen ****
+*******************************/
+
+/***************************
+**** Start Small Screen ****
+****************************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body { padding-top: 41px }
+    
+    /* Start Navbar */
+    
+    .navbar { min-height: 41px }
+    
+    .navbar-default .navbar-brand {
+        padding: 10px 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        height: 40px
+    }
+    
+    .navbar-default .navbar-brand .g { font-size: 23px; padding: 1px 4px }
+    
+    /* Start Navbar li */
+    
+    .navbar-default .navbar-nav > li > a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 13px
+    }
+    
+    .dropdown-menu { min-width: 165px }
+    
+    .dropdown-menu > li > a {  padding: 3px 8px; font-size: 13px }
+    
+    .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:focus { padding-left: 15px }
+    
+    /* Start Search */ 
+    
+    .navbar-form {
+        padding-top: 10px;
+        margin-bottom: 0;
+        margin-top: 7px;
+        padding: 0
+    }
+    
+    .navbar-form .form-control {
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 12px;
+        height: 28px
+    }
+    
+    .navbar .navbar-form .btn { padding: 4px 6px; font-size: 13px }
+    
+    /* End Navbar */
+    
+    /* Start Section Cash */
+    
+    .brands h1 {
+        margin-bottom: 35px;
+        margin-top: 30px;
+        font-size: 31px
+    }
+    
+    /* End Section Cash */
+    
+}
+
+/*************************
+**** End Small Screen ****
+*************************/
+
+/****************************
+**** Start Medium Screen ****
+*****************************/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    /* Start Navbar */
+    
+    .navbar-default .navbar-brand { margin-right: 30px }
+    
+    /* End Navbar */
+}
+
+/*************************
+**** End Medium Screen****
+*************************/
+
+/***************************
+**** Start Large Screen ****
+****************************/
+
+@media (min-width: 1200px) {
+    
+}
+
+/*************************
+**** End Large Screen ****
+*************************/

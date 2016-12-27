@@ -1,0 +1,13 @@
+.test {
+    background-color: #444;
+}
+
+.test .copy {
+    background-color: #DDD;
+    height: 35px
+}
+
+.test .social-media {
+    background-color: #DDD;
+    height: 35px
+}

@@ -1,0 +1,314 @@
+/*********************************
+**** Start Extra Small Screen ****
+**********************************/
+
+@media (max-width: 767px) {
+    
+    body { padding-top: 41px }
+    
+    /* Start Navbar */
+    
+    .navbar { min-height: 41px }
+    
+    .navbar-default .navbar-brand {
+        margin-right: 0;
+        font-size: 18px;
+        height: 40px;
+        padding: 10px 10px;
+    }
+    
+    .navbar-default .navbar-brand .g { font-size: 23px; padding: 1px 4px }
+    
+    .navbar-toggle { margin-top: 4px; margin-bottom: 0 }
+    
+    .navbar-default .navbar-toggle .icon-bar { background-color: #e61302; }
+    
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus { background-color: #e61302 }
+    
+    .navbar-default .navbar-toggle:hover .icon-bar { background-color: #FFF }
+    
+    .navbar-default .navbar-toggle:focus .icon-bar { background-color: #FFF }
+    
+    .navbar-default .navbar-nav > li > a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 13px
+    }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a { color: #000; font-size: 14px }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { background-color: #e61302; color: #FFF }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus { background-color: #e61302; color: #FFF }
+    
+    .navbar-form .form-control { max-width: 200px }
+    
+    /* End Navbar */
+    
+    /* Start Header */
+    
+    header h1 {
+        margin: 120px auto 0 auto;
+        padding-bottom: 4px;
+        padding-top: 4px;
+        font-size: 28px;
+    }
+    
+    header .g { padding: 1px 6px }
+    
+    header .wander {
+        padding: 9px 10px;
+        margin-top: 50px;
+        font-size: 13px
+    }
+    
+    /* End Header */
+    
+    /* Start About */
+    
+    .about h2 { font-size: 21px }
+
+    .about p { padding: 4px 20px }
+    
+    /* End About */
+    
+    /* Start News */
+
+    .news { padding-top:60px }
+
+    .news h2 { margin-bottom: 70px; font-size: 31px }
+
+    .news .info { margin-bottom: 30px }
+
+    .news .info p {
+        padding: 35px 10px 0;
+        margin-bottom: 10px;
+        line-height: 2em;
+        font-size: 15px
+    }
+
+    .info .but-news {
+        padding: 5px 7px;
+        font-size: 13px;
+        margin-top: 9px
+    }
+
+    /* End News */
+    
+    /* Start Contact Us */
+
+    .contact-us { min-height: 610px; width: 100%; }
+
+    .contact-us h2 { margin-top: 60px; font-size: 31px }
+    
+    .contact-us form { margin-bottom: 35px }
+
+    .contact-us .row { padding-bottom:60px; padding-top:60px }
+
+    .contact-us .row .input-lg { font-size: 13px; height: 38px }
+
+    .contact-us .row textarea.input-lg { height: 90px }
+
+    .contact-us .row .send {
+        letter-spacing: 2px;
+        font-size: 16px;
+        height: 34px
+    }
+
+    .contact-us .row .contact { padding-left: 30px }
+
+    .contact-us .row .contact .cont { margin-bottom: 20px; font-size: 12px }
+
+    /* End Contact Us */
+    
+    /* Start Footer */
+    
+    footer .copy { line-height: 30px; font-size: 14px }
+    
+    footer .social-media { line-height: 25px }
+
+    footer .social-media i {
+        line-height: 25px;
+        height: 25px;
+        width: 25px;
+    }
+    
+    /* End Footer */
+    
+}
+
+/*******************************
+**** End Extra Small Screen ****
+*******************************/
+
+/***************************
+**** Start Small Screen ****
+****************************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    body { padding-top: 41px }
+    
+    /* Start Navbar */
+    
+    .navbar { min-height: 41px }
+    
+    .navbar-default .navbar-brand {
+        padding: 10px 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        height: 40px
+    }
+    
+    .navbar-default .navbar-brand .g { font-size: 23px; padding: 1px 4px }
+    
+    /* Start Navbar li */
+    
+    .navbar-default .navbar-nav > li > a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 13px
+    }
+    
+    .dropdown-menu { min-width: 165px }
+    
+    .dropdown-menu > li > a { padding: 3px 8px; font-size: 13px }
+    
+    .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:focus { padding-left: 15px }
+    
+    /* Start Search */ 
+    
+    .navbar-form {
+        padding-top: 10px;
+        margin-bottom: 0;
+        margin-top: 7px;
+        padding: 0
+    }
+    
+    .navbar-form .form-control {
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 12px;
+        height: 28px
+    }
+    
+    .navbar .navbar-form .btn { padding: 4px 6px; font-size: 13px }
+    
+    /* End Navbar */
+    
+    /* Start Header */
+    
+    header h1 {
+        margin: 130px auto 0 auto;
+        padding-bottom: 2px;
+        padding-top: 3px;
+        font-size: 31px;
+    }
+    
+    header .g { padding: 1px 6px }
+    
+    header .wel .lead { font-size: 18px }
+    
+    header p { margin-top: 60px }
+    
+    header .wander {
+        padding: 9px 10px;
+        margin-top: 60px;
+        font-size: 17px
+    }
+    
+    /* End Header */
+    
+    /* Start About */
+    
+    .about h2 { font-size: 31px }
+
+    .about p { padding: 7px 90px; font-size: 17px }
+    
+    
+    /* End About */
+    
+    /* Start News */
+
+    .news { padding-top:60px }
+
+    .news h2 { margin-bottom: 70px; font-size: 31px }
+
+    .news .info { margin-bottom: 0 }
+
+    .news .info p {
+        padding: 15px 25px 0;
+        margin-bottom: 10px;
+        font-size: 15px
+    }
+
+    .info .but-news {
+        padding: 5px 7px;
+        font-size: 13px;
+        margin-top: 3px
+    }
+
+    /* End News */
+    
+    /* Start Contact Us */
+
+    .contact-us { min-height: 610px; width: 100%; }
+
+    .contact-us h2 { margin-top: 60px; font-size: 31px }
+
+    .contact-us .row { padding-bottom:60px; padding-top:60px }
+
+    .contact-us .row .input-lg { font-size: 13px; height: 38px }
+
+    .contact-us .row textarea.input-lg { height: 90px }
+
+    .contact-us .row .send {
+        letter-spacing: 2px;
+        font-size: 16px;
+        height: 34px
+    }
+
+    .contact-us .row .contact { padding-left: 30px }
+
+    .contact-us .row .contact .cont { margin-bottom: 20px; font-size: 12px }
+
+    /* End Contact Us */
+    
+}
+
+/*************************
+**** End Small Screen ****
+*************************/
+
+/****************************
+**** Start Medium Screen ****
+*****************************/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    /* Start Navbar */
+    
+    .navbar-default .navbar-brand { margin-right: 30px }
+    
+    /* End Navbar */
+    
+    /* Start News */
+
+    .news .img { padding-right: 0; padding-left: 0 }
+
+    .news .info { margin-bottom: 0 }
+
+    .news .info p { font-size: 17px }
+
+    .info .but-news { margin-top: 8px }
+
+    /* End News */
+}
+
+/*************************
+**** End Medium Screen****
+*************************/

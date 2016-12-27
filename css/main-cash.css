@@ -1,0 +1,265 @@
+body { padding-top: 52px }
+
+/* Start Navbar */
+
+.navbar-default .navbar-brand {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    margin-right: 120px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000
+}
+
+.navbar-default .navbar-brand .g {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-color: #e61302;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 2px;
+    padding:3px 6px;
+    font-size: 30px;
+    color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover { background-color: #e61302; color: #FFF }
+
+.navbar-default .navbar-brand:hover .g { background-color: #FFF; color: #e61302 }
+
+/* Start Navbar */
+
+.navbar-default .navbar-nav > li { margin-right: 1px }
+
+.navbar-default .navbar-nav > li > a {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000
+}
+
+.navbar-default .navbar-nav > li > a:hover { background-color: #e61302; color: #FFF }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #e61302;
+    font-weight: bold;
+    color: #FFF
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus { background-color: #e61302; color: #FFF }
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus { background-color: #e61302 }
+
+/* Start dropdown Menu */
+
+.dropdown-menu { min-width: 200px }
+
+.dropdown-menu > li > a {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #e61302;
+    padding-left: 25px;
+    color: #FFF
+}
+
+.dropdown-menu .divider { background-color: #e61302 }
+
+/* Start Search and button Search */
+
+.navbar-form .form-control:focus {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(230, 19, 2, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(230, 19, 2, .6);
+    border-color: #e61302
+}
+
+.btn-default {
+    background-color: #e61302;
+    border-color: #e61302;
+    font-weight: bold;
+    color: #FFF
+}
+
+.btn-default i { margin-right: 5px }
+
+.btn-default:hover {
+    background-color: #FFF;
+    border-color: #e61302;
+    color: #e61302
+}
+
+/* End Navbar */
+
+/* Start Search Box */
+
+.search-box {
+    position: fixed;
+    z-index: 9999;
+    top: 175px;
+    left: 0
+}
+
+.search-box .box {
+    border: 1px solid #e61302;
+    border-left: 2px solid #e61302;
+    background-color: #FFF;
+    padding: 10px 10px 15px;
+    max-width: 400px;
+    display: none;
+    float: left
+}
+
+.search-box .box h2 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: #e61302
+}
+
+.search-box .box .col-xs-6 { padding-right: 5px; padding-left: 5px }
+
+.search-box .box .form-control {
+    background-color: #e61302;
+    border: 1px solid #e61302;
+    color: #FFF
+}
+
+.search-box .box .form-control:focus {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(230, 19, 2, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(230, 19, 2, .6);
+}
+
+.search-box .box .color-option { background-color: #FFF; color: #e61302 }
+
+.search-box .box [type="text"] { background-color: rgba(230, 19, 2, .7) }
+
+.search-box .box input::-webkit-input-placeholder { color: #fefefe !important; }
+ 
+.search-box .box input:-moz-placeholder { color: #fefefe !important; }
+ 
+.search-box .box input::-moz-placeholder { color: #fefefe !important; }
+ 
+.search-box .box input:-ms-input-placeholder { color: #fefefe !important; }
+
+.search-box .box .btn-searchs { padding-right: 5px; padding-left: 5px }
+
+.search-box .box .btn-searchs .btn-search {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-color: #e61302;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 17px;
+    color: #FFF
+}
+
+.search-box .box .btn-searchs .btn-search:hover { background-color: #c40f00 }
+
+.search-box .icon-box {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-color: #e61302;
+    border: 1px solid #e61302;
+    border-radius: 0 6px 6px 0;
+    border-left: none;
+    padding: 3px 5px 5px 2px;
+    cursor: pointer;  
+    color: #FFF
+}
+
+.search-box .icon-box:hover {
+    background-color: #FFF;
+    font-size: 33px;
+    color: #e61302
+}
+
+/* End Search Box */
+
+/* Start Section Cash */
+
+.brands { min-height: 605px; border-bottom: 1px solid #000 }
+
+.brands h1 { margin-bottom: 50px; margin-top: 35px }
+
+.brands h1 span { color: #e61302 }
+
+.brands .row { margin-bottom: 60px }
+
+.brands .brand {
+    border: 1px solid #e61302;
+    margin-bottom: 30px;
+    text-align: center;
+    cursor: pointer
+}
+
+.brands .brand img { padding: 30px }
+
+.brands .brand span {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    border-top: 1px solid #e61302;
+    background-color: #e61302;
+    padding: 10px 1px;
+    font-weight: bold;
+    display: block;
+    color: #FFF
+}
+
+.brands .brand:hover span { background-color: #FFF; color: #e61302 }
+
+/* End Section Cash */
+
+/* Start Footer */
+
+footer { min-height: 45px }
+
+footer .copy { line-height: 45px; font-size: 17px }
+
+footer .social-media { line-height: 40px; }
+
+footer .social-media i {
+    margin-right: 10px;
+    border-radius: 3px;
+    line-height: 30px;
+    margin-top: 6px;
+    height: 30px;
+    width: 30px;
+    color: #FFF
+}
+
+footer .social-media .fa-facebook { background-color: #3b5998 }
+
+footer .social-media .fa-twitter { background-color: #1da1f2 }
+
+footer .social-media .fa-youtube { background-color: #e61302 }
+
+footer .social-media .fa-google-plus  { background-color: #db4437 }
+
+/* End Footer */
